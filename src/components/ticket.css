@@ -1,0 +1,19 @@
+
+.ticket-border{
+    border-bottom: dotted 3px white;
+}
+
+.ticket-main{
+    /* position: relative;
+    left:10% */
+}
+.info{
+    /* position: absolute;
+    left: 10%; */
+    border: 1px solid rgba(255, 255, 255, .25);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(169, 166, 166, 0.25);
+
+  backdrop-filter: blur(15px);
+}
