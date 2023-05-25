@@ -66,8 +66,8 @@ const Payout = () => {
               
             </div>
           </div>
-          <div className="cvv-no grid grid-cols-2 gap-4 mb-6">
-            <div>
+          <div className="cvv-no lg:grid grid-cols-2 gap-4 mb-6">
+            <div className="mb-4">
               <h2 className="text-medium text-[#03045e] font-medium">CVV Number</h2>
               <p className="text-xs text-gray-500">
                 Enter the 3 or 4 digit number on the card
@@ -85,15 +85,15 @@ const Payout = () => {
             </div>
           </div>
           <div className="expiry grid grid-cols-2 gap-4 mb-6">
-            <div>
+            <div className="mb-4">
               <h2 className="text-md text-[#03045e] font-medium">Expiry Date</h2>
               <p className="text-xs text-gray-500">
                 Enter the expiration date of the card
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2  gap-4">
               <input
-                className="border text-center col-span-1 rounded-md text-sm"
+                className="border text-center col-span-1 rounded-md text-sm "
                 type="text"
                 placeholder="09"
               />
@@ -105,16 +105,16 @@ const Payout = () => {
               />
             </div>
           </div>
-          <div className="password grid grid-cols-2 gap-4 mb-8">
-            <div>
+          <div className="password lg:grid grid-cols-2 gap-4 mb-8">
+            <div className="mb-4">
               <h2 className="text-md text-[#03045e] font-medium">Password</h2>
               <p className="text-xs text-gray-500">
                 Enter your Dynamic password
               </p>
             </div>
-            <div className="border flex justify-between rounded-md">
+            <div className="border flex justify-between text-center py-2 rounded-md">
               <input type="password" />
-              <div className="w-4 h-4 mr-3 mt-3 text-sm">
+              <div className="w-4 h-4 mr-3 lg:mt-3 mt-1 text-sm">
                 <img src={grid} alt="grid" />
               </div>
             </div>
@@ -125,7 +125,7 @@ const Payout = () => {
           </button>
         </form>
       </div>
-      <div className="w-full h-full  col-span-2 mt-40 lg:mt-16">
+      <div className="w-full h-full  col-span-2 mt-52 lg:mt-16">
           <Ticket />
         {/**right */}
 

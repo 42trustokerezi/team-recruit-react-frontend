@@ -8,7 +8,7 @@ import dot from "../assets/dot.png"
 const Ticket = () => {
   return (
     <div className="ticket-main lg:relative lg:left-[10%] h-full">
-        <div className="w-1/5 lg:-top-1 lg:left-[30%] lg:absolute bg-blue-500 absolute top-[34.5rem] left-[40%] rounded-md">&nbsp;</div>
+        <div className="w-1/5 lg:-top-1 lg:left-[30%] lg:absolute bg-blue-500 absolute top-[44.5rem] left-[40%] rounded-md">&nbsp;</div>
       <div className="grid grid-rows-5 w-4/5 mx-auto bg-[#e1e5ee] rounded-lg lg:absolute bottom-0">
         <div className="row-span-2">&nbsp;</div>
         <div className="row-span-2 ticket-border mt-12">
@@ -47,7 +47,7 @@ const Ticket = () => {
           </div>
         </div>
       </div>
-      <div className=" w-3/5 mx-auto h-[14rem] info px-6 lg:absolute lg:left-[10%] absolute lg:top-[0.5rem] top-[35rem] left-[20%]">&nbsp;
+      <div className=" w-3/5 mx-auto h-[14rem] info px-6 lg:absolute lg:left-[10%] absolute lg:top-[0.5rem] top-[45rem] left-[20%]">&nbsp;
         <div className="flex justify-between">
             <div className="w-10 h-10 ">
                 <img src={chip} className="w-full h-full" alt="chip"/>
